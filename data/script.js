@@ -1,12 +1,4 @@
 self.on(
-    'click',
-    function (node, data) {
-        var text = window.getSelection().toString();
-        window.open('https://translate.google.com/#auto/fa/' + text);
-    }
-);
-
-self.on(
     'context',
     function () {
         var text = window.getSelection().toString();
@@ -14,4 +6,7 @@ self.on(
                 text = text.substr(0, 20) + '...';
             }
         return 'Translate "' + text + '"';
-    });
+    }
+);
+
+self.on("click", self.postMessage);
