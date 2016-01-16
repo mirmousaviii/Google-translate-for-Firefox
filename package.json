@@ -1,0 +1,15 @@
+{
+  "title": "Google Translate",
+  "name": "google-translate",
+  "version": "0.0.1",
+  "description": "Google Translate in menu",
+  "main": "index.js",
+  "author": "Mostafa Mirmousavi",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
