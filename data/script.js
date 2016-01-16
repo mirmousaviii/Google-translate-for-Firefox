@@ -1,7 +1,8 @@
 self.on(
     'click',
     function (node, data) {
-        console.log('Item clicked!');
+        var text = window.getSelection().toString();
+        window.open('https://translate.google.com/#auto/fa/' + text);
     }
 );
 
