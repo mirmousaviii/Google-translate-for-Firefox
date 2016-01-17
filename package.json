@@ -1,8 +1,8 @@
 {
-  "title": "Google Translate",
-  "name": "google-translate",
+  "title": "Google Translate in Menu (Right Click)",
+  "name": "google-translate-menu",
   "version": "1.0.1",
-  "description": "Google Translate in menu",
+  "description": "Google Translate in Menu (Right Click)",
   "main": "index.js",
   "author": "Mostafa Mirmousavi",
   "engines": {
